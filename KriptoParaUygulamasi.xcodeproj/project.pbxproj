@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A949181C2AE3F6EA000EA81E /* CryptoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A949181B2AE3F6EA000EA81E /* CryptoTableViewCell.swift */; };
 		FC1DF5BC2AE3CA4800B02655 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1DF5BB2AE3CA4800B02655 /* AppDelegate.swift */; };
 		FC1DF5BE2AE3CA4800B02655 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1DF5BD2AE3CA4800B02655 /* SceneDelegate.swift */; };
 		FC1DF5C02AE3CA4800B02655 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1DF5BF2AE3CA4800B02655 /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A949181B2AE3F6EA000EA81E /* CryptoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewCell.swift; sourceTree = "<group>"; };
 		FC1DF5B82AE3CA4800B02655 /* KriptoParaUygulamasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KriptoParaUygulamasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC1DF5BB2AE3CA4800B02655 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC1DF5BD2AE3CA4800B02655 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +49,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A94918182AE3F4F7000EA81E /* Appdelegates */ = {
+			isa = PBXGroup;
+			children = (
+				FC1DF5BB2AE3CA4800B02655 /* AppDelegate.swift */,
+				FC1DF5BD2AE3CA4800B02655 /* SceneDelegate.swift */,
+			);
+			path = Appdelegates;
+			sourceTree = "<group>";
+		};
+		A94918192AE3F509000EA81E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				FC1DF5C12AE3CA4800B02655 /* Main.storyboard */,
+				FC1DF5C42AE3CA4900B02655 /* Assets.xcassets */,
+				FC1DF5C62AE3CA4900B02655 /* LaunchScreen.storyboard */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A949181A2AE3F6D6000EA81E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A949181B2AE3F6EA000EA81E /* CryptoTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		FC1DF5AF2AE3CA4800B02655 = {
 			isa = PBXGroup;
 			children = (
@@ -66,15 +95,13 @@
 		FC1DF5BA2AE3CA4800B02655 /* KriptoParaUygulamasi */ = {
 			isa = PBXGroup;
 			children = (
+				A949181A2AE3F6D6000EA81E /* Cell */,
+				A94918192AE3F509000EA81E /* Base */,
+				A94918182AE3F4F7000EA81E /* Appdelegates */,
 				FC1DF5D42AE3DEA800B02655 /* Service */,
 				FC1DF5D12AE3CA6D00B02655 /* ViewModel */,
 				FC1DF5D02AE3CA6900B02655 /* Model */,
 				FC1DF5CF2AE3CA6300B02655 /* View */,
-				FC1DF5BB2AE3CA4800B02655 /* AppDelegate.swift */,
-				FC1DF5BD2AE3CA4800B02655 /* SceneDelegate.swift */,
-				FC1DF5C12AE3CA4800B02655 /* Main.storyboard */,
-				FC1DF5C42AE3CA4900B02655 /* Assets.xcassets */,
-				FC1DF5C62AE3CA4900B02655 /* LaunchScreen.storyboard */,
 				FC1DF5C92AE3CA4900B02655 /* Info.plist */,
 			);
 			path = KriptoParaUygulamasi;
@@ -196,6 +223,7 @@
 				FC1DF5D62AE3DEBD00B02655 /* Webservice.swift in Sources */,
 				FC1DF5BE2AE3CA4800B02655 /* SceneDelegate.swift in Sources */,
 				FC1DF5D82AE3E5CA00B02655 /* CryptoViewModel.swift in Sources */,
+				A949181C2AE3F6EA000EA81E /* CryptoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +375,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7SH627DBA4;
+				DEVELOPMENT_TEAM = PAC44LVVKL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KriptoParaUygulamasi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -355,6 +383,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -375,7 +404,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7SH627DBA4;
+				DEVELOPMENT_TEAM = PAC44LVVKL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KriptoParaUygulamasi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -383,6 +412,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -9,7 +9,7 @@ import Foundation
 import RxSwift
 import RxCocoa
 
-class CryptoViewModel {
+final class CryptoViewModel {
     
     let cryptos : PublishSubject<[Crypto]> = PublishSubject()
     let error : PublishSubject<String> = PublishSubject()
